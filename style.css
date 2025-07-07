@@ -1,0 +1,141 @@
+Body{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    background-color:#666bf7 ;
+    align-items: center;
+}
+.header-left{}
+.header-left img{}
+.header-right{}
+.header-right ul {
+    display: flex;
+}
+.header-right ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+.header-right ul li a {
+    text-decoration: none;
+    color:white;
+    transition: 1s;
+}
+.header-right ul li a:hover{
+    color: white;
+    background-color:#ff5757;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* Banner css start from here*/
+
+.banner {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+}
+.banner-left{
+    width: 40%;
+    height:auto;
+}
+.banner-left h1 {
+    margin-left: 30px;
+    text-align: center;
+    margin: 20px 30px;
+    font-size: 25px;
+    color: #666bf7;
+    font-weight: bold;
+}
+.banner-left p{
+    
+    margin: 20px 40px;
+
+}
+.btn {
+    font-size: 15px;
+    margin: 20px 40px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: #666bf7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn:hover{
+    color: white;
+    background-color:#ff5757;
+   
+
+}
+.banner-right {
+    width: 60%;
+    height: auto;
+}
+.banner-right img {
+    width: 100%;
+    height: auto;
+}
+color:#FF5396
+
+#2A31FF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.header {
+    background-color:rgb(128, 57, 92);
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.header-left{}
+.header-left img {
+    width: 100%;
+    height: auto;
+  
+}
+.header-right{}
+.header-right ul {
+    display: flex;
+    font-size: 20px;
+}
+.header-right ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 2s;
+}
+.header-right ul li a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+header Css Finish Here*/
+
